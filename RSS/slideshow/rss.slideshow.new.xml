@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss 
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/" 
+  xmlns:mi="http://schemas.ingestion.microsoft.com/common/" 
+  version="2.0">
+  <channel>
+    <title>Slideshow Group Title</title>
+    <link>http://www.contoso.com/Slideshow-Group-Link/</link>
+    <description>This is a group of slideshows.</description>
+    <lastBuildDate>01 Oct 2017 13:00:00 GMT</lastBuildDate>
+    <item>
+      <guid isPermaLink="false">207073</guid>
+      <title>Slideshow 1 Title</title>
+      <description>Slideshow 1 Description</description>
+      <author>author@contoso.com</author>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" />
+        <media:credit>Slideshow 1 Slide 1 Attribution</media:credit>
+        <media:title>Slideshow 1 Slide 1 title</media:title>
+        <media:text>Slideshow 1 Slide 1 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" />
+        <media:credit>Slideshow 1 Slide 2 Attribution</media:credit>
+        <media:title>Slideshow 1 Slide 2 title</media:title>
+        <media:text>Slideshow 1 Slide 2 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+      <pubDate>01 Oct 2017 13:00:00 GMT</pubDate>
+      <media:keywords>keyword</media:keywords>
+      <atom:link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_1.html" title="New IRS proposal" />
+      <atom:link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_2.html" title="New IRS reform" />
+      <atom:link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_3.html" title="New IRS reform" />
+    </item>
+    <item>
+      <guid isPermaLink="false">498401</guid>
+      <title>Slideshow 2 Title</title>
+      <description>Slideshow 2 Description</description>
+      <author>author@contoso.com</author>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" />
+        <media:credit>Slideshow 2 Slide 1 Attribution</media:credit>
+        <media:title>Slideshow 2 Slide 1 title</media:title>
+        <media:text>Slideshow 2 Slide 1 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg"/>
+        <media:credit>Slideshow 2 Slide 2 Attribution</media:credit>
+        <media:title>Slideshow 2 Slide 2 title</media:title>
+        <media:text>Slideshow 2 Slide 2 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698526</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+      <pubDate>01 Oct 2017 13:00:00 GMT</pubDate>      
+      <media:keywords>keyword</media:keywords>
+      <atom:link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_1.html" title="New IRS proposal">
+        <media:thumbnail url="http://contoso.com/image.jpg" />
+        <media:credit>Thumbnail Attribution</media:credit>
+        <media:title>Thumbnail title</media:title>
+        <media:text>Thumbnail description</media:text>
+      </atom:link>
+      <atom:link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_1.html" title="New IRS proposal">
+        <media:thumbnail url="http://contoso.com/image.jpg" />
+        <media:credit>Thumbnail Attribution</media:credit>
+        <media:title>Thumbnail title</media:title>
+        <media:text>Thumbnail description</media:text>
+      </atom:link>
+      <atom:link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_1.html" title="New IRS proposal">
+        <media:thumbnail url="http://contoso.com/image.jpg" />
+        <media:credit>Thumbnail Attribution</media:credit>
+        <media:title>Thumbnail title</media:title>
+        <media:text>Thumbnail description</media:text>
+      </atom:link>
+    </item>
+  </channel>
+</rss>

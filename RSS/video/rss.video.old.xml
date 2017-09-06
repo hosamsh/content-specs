@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss 
+  xmlns:media="http://search.yahoo.com/mrss/" 
+  xmlns:dcterms="http://purl.org/dc/terms/" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xmlns:mi="http://schemas.ingestion.microsoft.com/common/" version="2.0">
+  
+  <channel>
+    <title>Feed title</title>
+    <link>http://www.contoso.com/sports</link>
+    <description>Feed description</description>
+    <item>
+      <guid>723435</guid>
+      <title>Video title</title>
+      <description>Video description</description>
+      <author>Video author</author>
+      <media:content duration="512" type="video/mp4" url="http://contoso.com/video.mp4">
+        <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" height="480" width="853" />
+        <media:title>Video caption</media:title>
+        <media:text>Video description</media:text>
+        <media:copyright>Video author</media:copyright>
+      </media:content>
+      <pubDate>2016-01-10T10:00:00+0100</pubDate>
+      <lastBuildDate>2016-01-10T10:00:00+0100</lastBuildDate>
+      <expirationDate>2016-01-17T10:00:00+0100</expirationDate>
+      <dcterms:valid>2016-01-17T10:00:00+0100</dcterms:valid>
+      <media:keywords>keyword</media:keywords>
+    </item>
+  </channel>
+</rss>

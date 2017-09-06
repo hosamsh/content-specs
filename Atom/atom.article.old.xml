@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<feed
+  xmlns="http://www.w3.org/2005/Atom" 
+  xmlns:media="http://search.yahoo.com/mrss/" 
+  xmlns:mi="http://schemas.ingestion.microsoft.com/common/" 
+  xml:lang="en-us">
+  
+  <id>feedID</id>
+  <title><![CDATA[Feed title]]></title>
+  <subtitle><![CDATA[Feed subtitle]]></subtitle>
+  <updated>2016-01-10T10:00:00+0100</updated>
+  <author>
+    <name>Feed author</name>
+    <email>Feed author email</email>
+  </author>
+  <rights>Feed author</rights>
+  <entry>
+    <id>455609</id>
+    <title><![CDATA[Article Title]]></title>
+    <subtitle><![CDATA[Article Subtitle]]></subtitle>
+    <mi:shortTitle><![CDATA[Short Title]]></mi:shortTitle>
+    <mi:dateTimeWritten>2016-01-10T10:00:00+0100</mi:dateTimeWritten>
+    <published>2016-01-10T10:00:00+0100</published>
+    <updated>2016-01-10T10:00:00+0100</updated>
+    <mi:expirationDate>2016-01-17T10:00:00+0100</mi:expirationDate>
+    <author>
+      <name><![CDATA[Article author]]></name>
+    </author>
+    <contributor>
+      <name><![CDATA[Article contributor]]></name>
+    </contributor>
+    <rights>Article rights</rights>
+    <mi:deepLink url="msnnews://content/AaBcDe"></mi:deepLink>
+    <link rel="self" href="http://contoso.13292-atom.xml" />
+    <link rel="related" href="http://contoso.13292-xml-atom" />
+    <summary><![CDATA[Article abstract]]></summary>
+    <content type="html">
+      <![CDATA[<p>Article body paragraph 1</p>
+      <img src="http://contoso.com/image.jpg" width="620" height="569" alt="Image title here" data-portal-copyright="Brian Lockwood" 
+      data-has-syndication-rights="1" data-license-id="698526" data-licensor-name="Licensor name" data-focal-region="x1:246,y1:140,x2:246,y2:140" />
+      <p>Article body paragraph 2 <a href="http://contoso.com/topcities/1" title="top-ranking-city">here</a></p>
+      <p>Article body paragraph 3</p>]]>
+    </content>
+    <media:content url="http://contoso.com/image.jpg">
+      <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+      <media:credit>Image1 attribution</media:credit>
+      <media:title>Image1 caption</media:title>
+      <media:text>Image1 alt-text</media:text>
+      <mi:focalRegion>
+        <mi:x1>246</mi:x1>
+        <mi:y1>140</mi:y1>
+        <mi:x2>246</mi:x2>
+        <mi:y2>140</mi:y2>
+      </mi:focalRegion>
+      <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+      <mi:licenseId>698525</mi:licenseId>
+      <mi:licensorName>Licensor name</mi:licensorName>
+    </media:content>
+    <media:content url="http://contoso.com/image.jpg">
+      <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+      <media:credit>Image2 attribution</media:credit>
+      <media:title>Image2 caption</media:title>
+      <media:text>Image2 alt-text</media:text>
+      <mi:focalRegion>
+        <mi:x1>246</mi:x1>
+        <mi:y1>140</mi:y1>
+        <mi:x2>246</mi:x2>
+        <mi:y2>140</mi:y2>
+      </mi:focalRegion>
+      <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+      <mi:licenseId>698525</mi:licenseId>
+      <mi:licensorName>Licensor name</mi:licensorName>
+    </media:content>
+    <media:content url="http://contoso.com/video.mp4" id="0" duration="91" type="video/mp4">
+      <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+      <media:copyright>Inline Video</media:copyright>
+      <media:title>Video title</media:title>
+      <media:text>Video description</media:text>
+    </media:content>
+    <media:group1>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+        <media:credit>Slide 1 Attribution</media:credit>
+        <media:title>Slide 1 title</media:title>
+        <media:text>Slide 1 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+        <media:credit>Slide 2 Attribution</media:credit>
+        <media:title>Slide 2 title</media:title>
+        <media:text>Slide 2 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+        <media:credit>Slide 3 Attribution</media:credit>
+        <media:title>Slide 3 title</media:title>
+        <media:text>Slide 3 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+    </media:group1>
+    <media:group2>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+        <media:credit>Slide 1 Attribution</media:credit>
+        <media:title>Slide 1 title</media:title>
+        <media:text>Slide 1 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+        <media:credit>Slide 2 Attribution</media:credit>
+        <media:title>Slide 2 title</media:title>
+        <media:text>Slide 2 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+      <media:content url="http://contoso.com/image.jpg" type="image/jpeg">
+        <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+        <media:credit>Slide 3 Attribution</media:credit>
+        <media:title>Slide 3 title</media:title>
+        <media:text>Slide 3 alt-text</media:text>
+        <mi:focalRegion>
+          <mi:x1>246</mi:x1>
+          <mi:y1>140</mi:y1>
+          <mi:x2>246</mi:x2>
+          <mi:y2>140</mi:y2>
+        </mi:focalRegion>
+        <mi:hasSyndicationRights>1</mi:hasSyndicationRights>
+        <mi:licenseId>698525</mi:licenseId>
+        <mi:licensorName>Licensor name</mi:licensorName>
+      </media:content>
+    </media:group2>
+    <keywords>
+      <keyword>keyword</keyword>
+    </keywords>
+    <link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_1.html" title="New IRS proposal">
+      <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+      <media:credit>Thumbnail Attribution</media:credit>
+      <media:title>Thumbnail title</media:title>
+      <media:text>Thumbnail description</media:text>
+    </link>
+    <link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_1.html" title="New IRS proposal">
+      <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+      <media:credit>Thumbnail Attribution</media:credit>
+      <media:title>Thumbnail title</media:title>
+      <media:text>Thumbnail description</media:text>
+    </link>
+    <link rel="related" type="text/html" href="http://contoso.com/news/prop_irs_1.html" title="New IRS proposal">
+      <media:thumbnail url="http://contoso.com/image.jpg" type="image/jpeg" />
+      <media:credit>Thumbnail Attribution</media:credit>
+      <media:title>Thumbnail title</media:title>
+      <media:text>Thumbnail description</media:text>
+    </link>
+  </entry>
+</feed>
